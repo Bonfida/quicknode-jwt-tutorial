@@ -1,0 +1,15 @@
+name = "quicknode-jwt"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-04-17"
+
+[build]
+command = "yarn && yarn build"
+[build.upload]
+format = "service-worker"
+
+[secrets]
+# SECRET
